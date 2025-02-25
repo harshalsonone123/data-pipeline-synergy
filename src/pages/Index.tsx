@@ -84,7 +84,7 @@ const Index = () => {
 
       <main className="container max-w-4xl mx-auto px-6 py-16 space-y-24">
         <section
-          ref={el => sectionRefs.current[0] = el}
+          ref={(el: HTMLDivElement | null) => sectionRefs.current[0] = el}
           className="section-fade"
         >
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Required Skills</h2>
@@ -96,7 +96,7 @@ const Index = () => {
         </section>
 
         <section
-          ref={el => sectionRefs.current[1] = el}
+          ref={(el: HTMLDivElement | null) => sectionRefs.current[1] = el}
           className="section-fade"
         >
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Key Responsibilities</h2>
@@ -112,7 +112,7 @@ const Index = () => {
         </section>
 
         <section
-          ref={el => sectionRefs.current[2] = el}
+          ref={(el: HTMLDivElement | null) => sectionRefs.current[2] = el}
           className="section-fade"
         >
           <div className="bg-white rounded-lg p-8 border border-gray-100 shadow-sm">
