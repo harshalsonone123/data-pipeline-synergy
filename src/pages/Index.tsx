@@ -27,20 +27,21 @@ const Index = () => {
   }, []);
 
   const skills = [
-    "Python", "JavaScript", "MongoDB", "PostgreSQL", "AWS", "Databricks",
-    "ETL", "RESTful APIs", "Docker", "Git", "Data Architecture", "ML/AI"
+    "iOS Development", "Android Development", "React Native", "UI/UX Design",
+    "API Integration", "App Security", "Performance Optimization", "Cross-Platform Development",
+    "Mobile Testing", "Version Control", "App Store Deployment", "Payment APIs"
   ];
 
   const responsibilities = [
-    "Design, develop, and maintain scalable backend services and APIs",
-    "Build and optimize ETL pipelines for efficient data processing",
-    "Collaborate with cross-functional teams on data integration",
-    "Write clean, maintainable code in Python and JavaScript",
-    "Manage MongoDB and PostgreSQL databases",
-    "Deploy and scale solutions using AWS",
-    "Utilize Databricks for big data processing",
-    "Optimize backend systems for performance",
-    "Write and maintain automated tests"
+    "Develop and maintain mobile applications for iOS and Android platforms",
+    "Collaborate with designers and product managers on user experience",
+    "Optimize app performance across different devices",
+    "Implement security best practices and data protection",
+    "Integrate third-party APIs and payment systems",
+    "Debug and troubleshoot application issues",
+    "Ensure cross-platform compatibility and responsiveness",
+    "Handle app store submission processes",
+    "Work with backend teams on API integration"
   ];
 
   return (
@@ -68,7 +69,7 @@ const Index = () => {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl font-bold text-gray-900 mb-4"
             >
-              Backend Developer
+              Mobile App Developer
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -76,7 +77,7 @@ const Index = () => {
               transition={{ delay: 0.4 }}
               className="text-xl text-gray-600 max-w-2xl mx-auto"
             >
-              Join our team and build powerful backend solutions that drive our data-driven applications
+              Join our team to build an innovative cross-platform finance mobile application
             </motion.p>
           </div>
         </div>
@@ -120,23 +121,23 @@ const Index = () => {
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start">
                 <span className="mr-3">•</span>
-                Proven experience as a Backend Developer with ETL focus
+                Proven experience in mobile app development for iOS and Android
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
-                Strong background in Python and JavaScript development
+                Strong background in UI/UX design principles
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
-                Expertise in MongoDB and PostgreSQL
+                Experience with payment API integration
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
-                Extensive experience with AWS services
+                Knowledge of app store submission processes
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
-                Proficiency with Databricks and big data processing
+                Familiarity with mobile security best practices
               </li>
             </ul>
           </div>
